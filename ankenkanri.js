@@ -15,9 +15,6 @@
             event.record[KOKYAKU_FIELD_CODE]["lookup"] = true;
         }
 
-        // 案件IDは自動採番なので、編集不可
-        event.record[ANKEN_FIELD_CODE].disabled = true;
-
         return event;
 
     });
