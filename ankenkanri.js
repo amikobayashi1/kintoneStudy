@@ -20,7 +20,7 @@
         event.record[ANKEN_FIELD_CODE].disabled = true;
 
         // 受注見積IDは見積管理アプリのステータスが受注に変更、保存された場合に自動入力されるため、編集不可
-        event.record[MITSUMORI_FIELD_CODE].disabled = true;
+        //event.record[MITSUMORI_FIELD_CODE].disabled = true;
 
 
         return event;
